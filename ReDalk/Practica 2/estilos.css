@@ -1,44 +1,59 @@
-.master .item1 a:hover> h1{
-    background-color: aqua;
-    margin-left: 100px;
-    transition: 0.5s;
+*{
+    margin: 0;
+    padding: 0;
 }
-.master .item1:hover{
-    background-color: darkgoldenrod;
-    transition: 0.5s;
+body{
+    background-color: black;
 }
-.master h1{
-    background-color: none;
-    transition: 0.5s;
+.circle{
+    margin: 30px 20px;
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    border-radius: 50%;
+    animation-name: mover;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
 }
-.master a i{
-    visibility: hidden;
+@keyframes cambioColor {
+    from{
+        background-color: crimson;
+    }
+    to{
+        background-color: aqua;
+    }
 }
-.master .item1 a:hover> i{
-    visibility: visible;
-    font-size: 5em;
+@keyframes escalar {
+    0%{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(2);
+    }
+    40%{
+        transform: scale(3);
+    }
+    60%{
+        transform: scale(4);
+    }
+    80%{
+        transform: scale(5);
+    }
+    100%{
+        transform: scale(6);
+    }
 }
-.master .item2:hover>h1{
-    margin-left: 100px;
-    transition: 0.5s;
-}
-.master .item3:hover>h1 {
-    margin-left: 100px;
-    transition: 0.5s;
-}
-.master .item4:hover>h1{
-    margin-left: 100px;
-    transition: 0.5s;
-}
-input:focus {
-    background-color: rgb(150, 148, 148);
-    transition: 0.5s;
-}
-input{
-    background-color: white;
-    transition: 1s;
-    border-radius: 5px;
-}
-h1, .master{
-    width: 200px;
+
+@keyframes mover{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100%) translateY(100%);
+        background-color: aqua;
+    }
 }
