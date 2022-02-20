@@ -1,0 +1,122 @@
+
+div ul li {
+	list-style: none;
+	float: right;
+	padding: 0 10px;
+	margin: 10px 9px;
+	color:yellow;
+	 }
+
+div ul { 
+
+		padding-right: 100px;
+ }
+body {
+ background-color: black;  
+
+ }
+ div ul li:hover{
+ 	color: white;
+ }
+.caja{
+	width: 100px;
+	height: 100px;
+	background-color: white; 
+	transition: 2s;
+}	
+.caja:hover{
+	padding-left:100px;
+	transition: 1s; 
+}
+.desplazar a .Icono i{
+	color:pink;
+	font-size:2em;
+	position: absolute;
+	visibility: hidden;
+
+}
+.desplazar a .text h2{
+	color:pink;
+	font-size:2em;
+	position: relative;
+
+}
+.desplazar:hover> a .text h2{
+	padding-left: 50px;
+	transition: 0.25s;
+
+}
+.desplazar:hover> a .Icono i{
+	visibility: visible;
+	transition: 0.25s;
+
+}
+.desplazar a {
+	text-decoration: none;
+}
+.desplazar{
+	width: 200px;
+	}
+
+
+.desplazar a .hojas i{
+	color:orange;
+	font-size:2em;
+	position: absolute;
+	visibility: hidden;
+
+}
+.desplazar a .text h2{
+	color:orange;
+	font-size:2em;
+	position: relative;
+
+}
+.desplazar:hover> a .text h2{
+	padding-left: 50px;
+	transition: 0.25s;
+
+}
+.desplazar:hover> a .hojas i{
+	visibility: visible;
+	transition: 0.25s;
+
+}
+.desplazar a {
+	text-decoration: none;
+}
+.desplazar{
+	width: 200px;
+	}
+
+
+
+.desplazar a .Redes i{
+	color:pink;
+	font-size:2em;
+	position: absolute;
+	visibility: hidden;
+
+}
+.desplazar a .text h2{
+	color:blue;
+	font-size:2em;
+	position: relative;
+
+}
+.desplazar:hover> a .text h2{
+	padding-left: 50px;
+	transition: 0.25s;
+
+}
+.desplazar:hover> a .Redes i{
+	visibility: visible;
+	transition: 0.25s;
+
+}
+.desplazar a {
+	text-decoration: none;
+}
+.desplazar{
+	width: 200px;
+	}
