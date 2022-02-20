@@ -1,18 +1,30 @@
-div ul li{
-    list-style: none;
-    float: right;
-    padding: 0 10px;
-    margin: 10px 30px;
-    color: brown;
+*{
+    padding: 0;
+    margin: 0;
 }
-.principal ul{
-    padding-right: 100px;
+.nav{
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    height: 60px;
 }
 body{
-    background-color: black;
+    background-color: #000000;
 }
-div ul li:hover{
-color: white;
+.nav .principal ul li{
+    list-style: none;
+    float: right;
+    padding: 20px 50px;
+    margin: 0;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.nav .principal ul{
+    padding-right: 100px;
+}
+
+.nav .principal ul li:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.253);
 }
 .caja{
     width: 100px;
